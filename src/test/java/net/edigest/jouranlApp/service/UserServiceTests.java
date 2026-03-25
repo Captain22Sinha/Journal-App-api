@@ -19,6 +19,8 @@ public class UserServiceTests {
     @Autowired
     private UserRepository userRepository;
 
+    @Autowired
+    private UserService userService;
 
     @Disabled
     @Test
