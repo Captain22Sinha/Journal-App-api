@@ -1,6 +1,6 @@
-package net.edigest.jouranlApp.service;
+package net.edigest.journalApp.service;
 
-import net.edigest.jouranlApp.repository.UserRepository;
+import net.edigest.journalApp.repository.UserRepository;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

@@ -1,7 +1,7 @@
-package net.edigest.jouranlApp.config;
+package net.edigest.journalApp.config;
 
 
-import net.edigest.jouranlApp.service.UserDetailsServiceImpl;
+import net.edigest.journalApp.service.UserDetailsServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

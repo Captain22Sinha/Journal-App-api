@@ -1,7 +1,7 @@
-package net.edigest.jouranlApp.controller;
+package net.edigest.journalApp.controller;
 
-import net.edigest.jouranlApp.entity.User;
-import net.edigest.jouranlApp.service.UserService;
+import net.edigest.journalApp.entity.User;
+import net.edigest.journalApp.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

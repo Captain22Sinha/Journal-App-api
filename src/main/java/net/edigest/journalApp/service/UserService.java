@@ -1,8 +1,8 @@
-package net.edigest.jouranlApp.service;
+package net.edigest.journalApp.service;
 
 import lombok.extern.slf4j.Slf4j;
-import net.edigest.jouranlApp.entity.User;
-import net.edigest.jouranlApp.repository.UserRepository;
+import net.edigest.journalApp.entity.User;
+import net.edigest.journalApp.repository.UserRepository;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -28,6 +28,11 @@ public class UserService {
             userRepository.save(user);
            return true;
         }catch(Exception e){
+            log.error("Error occurd for {} : ", user.getUserName(), e);
+//            logger.info("hahaha");
+//            logger.warn("hahaha");
+//            logger.debug("hahaha");
+//            logger.trace("hahaha");
             return false;
         }
     }

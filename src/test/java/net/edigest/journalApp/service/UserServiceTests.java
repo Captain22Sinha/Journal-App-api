@@ -1,7 +1,7 @@
-package net.edigest.jouranlApp.service;
+package net.edigest.journalApp.service;
 
-import net.edigest.jouranlApp.entity.User;
-import net.edigest.jouranlApp.repository.UserRepository;
+import net.edigest.journalApp.entity.User;
+import net.edigest.journalApp.repository.UserRepository;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;

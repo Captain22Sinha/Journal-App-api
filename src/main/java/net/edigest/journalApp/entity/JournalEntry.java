@@ -1,4 +1,4 @@
-package net.edigest.jouranlApp.entity;
+package net.edigest.journalApp.entity;
 
 
 import lombok.Data;
