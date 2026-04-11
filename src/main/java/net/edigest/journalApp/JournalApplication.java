@@ -21,4 +21,9 @@ public class JournalApplication {
 	public PlatformTransactionManager falana(MongoDatabaseFactory dbFactory) {
 		return new MongoTransactionManager(dbFactory);
 	}
+
+	@Bean
+	public RestTemplate restTemplate() {
+		return new RestTemplate();
+	}
 }
